@@ -11,7 +11,7 @@ public class CalculadoraCliente {
 		Registry reg = null;
 		ICalculadora calc;
 		float num1, num2; // Receber os 2 números
-		int operacao; // Identifica qual das 4 operações será feita
+		int operacao; // 1 - Soma | 2 - Subtração | 3 - Multiplicação | 4 - Divisão
 		
 		int continuar = 1; 
 		while(continuar == 1) {
